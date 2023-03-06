@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Upload') {
 
-        dir('/var/lib/jenkins/workspace'){
+            dir('/var/lib/jenkins/workspace'){
 
             pwd(); //Log current directory
 
