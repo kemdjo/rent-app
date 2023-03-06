@@ -11,5 +11,21 @@ pipeline {
                     sh "zip -r rent-app.zip rent-app"}
             }  
         }
+        stage('Upload') {
+
+        dir('/var/lib/jenkins/workspace'){
+
+            pwd(); //Log current directory
+
+            withAWS(region:'$AWS_DEFAULT_REGION',credentials:'$AWS_ACCESS_KEY_ID') {
+
+                 def identity=awsIdentity();//Log AWS credentials
+
+                // Upload files from working directory 'dist' in your project workspace
+                s3Upload(bucket:"motsebo-rentzon-web-file", workingDir:'dist', includePathPattern:'**/*');
+            }
+
+        };
+    }
     }
 }  
