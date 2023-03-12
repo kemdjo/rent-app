@@ -13,8 +13,8 @@ pipeline {
         }
         stage("Upload"){
             steps{
-                withAWS(region:"${AWS_DEFAULT_REGION}", credentials:"${AWS_ACCESS_KEY_ID}){
-                    s3Upload(file:"rent-app.zip", bucket:"motsebo-rentzon-web-file", path:"/var/lib/jenkins/workspace/rent-app.zip")
+                  dir ("/var/lib/jenkins/workspace"){
+                    sh "python3 s3-upload-script.py "}
                 }    
             }
         
