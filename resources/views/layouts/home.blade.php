@@ -123,7 +123,7 @@
                 <div class="icon-text">
                     <h4 class="title heading-font"> {!! trans('home.outstanding_services') !!}</h4>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                        <p>At Motsebo-Rental, we take great pride in offering outstanding rental car services to meet your travel needs. Our commitment to providing exceptional customer service is reflected in everything we do, from the quality of our vehicles to the professionalism of our staff. We understand that renting a car can be a stressful and time-consuming experience, which is why we strive to make your rental experience as seamless and hassle-free as possible. Whether you need a car for business or leisure, we are here to help you get where you need to go.</p>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@
                 <div class="icon-text">
                     <h4 class="title heading-font"> {!! trans('home.quality_vehicles') !!}</h4>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                        <p>We understand that when you're on the road, you want a vehicle that feels like a home away from home. That's why we ensure that our rental cars are equipped with all the features and amenities you need to make your journey comfortable and enjoyable. From spacious interiors to advanced safety features, our vehicles are designed to provide you with the best possible rental experience. We are committed to providing you with exceptional customer service, and our team of friendly and knowledgeable professionals is always on hand to assist you with any questions or concerns you may have.</p>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@
                 <div class="icon-text">
                     <h4 class="title heading-font"> {!! trans('home.gps_every_vehicle') !!}</h4>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                        <p>We are delighted to inform you that all of our rental cars are equipped with GPS technology. This state-of-the-art system provides accurate and reliable navigation guidance, ensuring that you never get lost on the road. With our GPS-enabled rental cars, you can explore new destinations with confidence and ease, knowing that you can always find your way back to your starting point.</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,7 @@
                 <div class="icon-text">
                     <h4 class="title heading-font"> {!! trans('home.Baby_Chairs_Booster_Seats') !!}</h4>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                        <p>We to offer a range of comfortable and safe booster seats for your children's travel needs. Our booster seats are designed to provide the necessary support and protection to keep your child safe while traveling in our rental cars.</p>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
                 <div class="icon-text">
                     <h4 class="title heading-font"> {!! trans('home.AT_MT_Transmission') !!}</h4>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                        <p>Whether you prefer the ease and convenience of an automatic transmission or the control and responsiveness of a manual transmission, we have a rental car to meet your needs. Our vehicles are designed to provide a comfortable and enjoyable driving experience, no matter which transmission you choose. We take pride in providing exceptional customer service, and our team of friendly and knowledgeable professionals is always available to assist you with any questions or concerns you may have. We are committed to making your rental experience as seamless and hassle-free as possible, so you can focus on enjoying the road ahead</p>
                     </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                 <div class="icon-text">
                     <h4 class="title heading-font"> {!! trans('home.24_Hours_Support') !!}</h4>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas lobortis vestibulum ipsum vitae pellentesque.</p>
+                        <p>we understand that unexpected situations can arise when you're on the road. That's why we offer 24-hour support to ensure that you have access to the assistance you need, whenever you need it. Whether you have a question about your rental car, need help with directions, or require emergency roadside assistance, our team of friendly and knowledgeable professionals is always available to assist you. We are committed to providing you with the highest level of service and support, no matter the time of day or night.</p>
                     </div>
                 </div>
             </div>
