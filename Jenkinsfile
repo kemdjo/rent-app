@@ -8,6 +8,7 @@ pipeline {
 //               sh "aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY"
                  sh "pwd"  
                  dir ("/var/lib/jenkins/workspace"){
+                    //sh rm -rf /var/lib/jenkins/workspace/* "
                     sh "zip -r rent-app.zip rent-app"}
             }  
         }
