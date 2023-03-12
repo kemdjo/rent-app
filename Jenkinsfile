@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('deploy') {
+        stage('zip') {
             steps {
 //               sh "aws configure set region $AWS_DEFAULT_REGION" 
 //               sh "aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID"  
@@ -14,7 +14,7 @@ pipeline {
         stage("Upload"){
             steps{
                 withAWS(region:"${AWS_DEFAULT_REGION}", credentials:"${AWS_ACCESS_KEY_ID}){
-                    s3Upload(file:"rent-app.zip", bucket:"motsebo-rentzon-web-file", path:"$/var/lib/jenkins/workspace/rent-app.zip")
+                    s3Upload(file:"rent-app.zip", bucket:"motsebo-rentzon-web-file", path:"/var/lib/jenkins/workspace/rent-app.zip")
                 }    
             }
         
