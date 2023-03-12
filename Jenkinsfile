@@ -14,7 +14,8 @@ pipeline {
         stage("Upload"){
             steps{
                   dir ("/var/lib/jenkins/workspace"){
-                    sh "python3 s3-upload-script.py "}
+                  sh "source aws-python/bin/activate  "
+                  sh "python3 s3-upload-script.py "}
                 }    
             }
         
